@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Spice Garden Restaurant | Best Food in Bangalore</title>
+
+    <meta name="description" content="Spice Garden Restaurant offers delicious Indian food, biryani, paneer tikka, and desserts. Book your table online in Bangalore.">
+    <meta name="keywords" content="restaurant, spice garden, biryani, paneer tikka, bangalore food, indian restaurant">
+    <meta name="author" content="Spice Garden">
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <!-- Navbar -->
+    <nav>
+        <h2 class="logo">Spice Garden</h2>
+
+        <ul>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#menu">Menu</a></li>
+            <li><a href="#desserts">Desserts</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </nav>
+
+    <!-- Hero Section -->
+    <header class="hero" id="home">
+        <div class="hero-content">
+            <h1>Delicious Food, Delivered Fresh</h1>
+
+            <p>Experience the finest flavors crafted by our expert chefs.</p>
+
+            <button type="button" onclick="document.getElementById('menu').scrollIntoView({behavior:'smooth'})">
+                Order Now
+            </button>
+        </div>
+    </header>
+
+    <!-- Featured Dishes -->
+    <section class="featured">
+        <h2>Featured Dishes</h2>
+
+        <div class="dish-grid">
+
+            <article class="dish-card">
+                <img src="https://images.unsplash.com/photo-1603894584373-5ac82b2ae398?w=800"
+                    alt="Butter Chicken">
+                <h3>Butter Chicken</h3>
+                <p>Creamy tomato-based curry served with naan.</p>
+            </article>
+
+            <article class="dish-card">
+                <img src="https://images.unsplash.com/photo-1567188040759-fb8a883dc6d8?w=800"
+                    alt="Paneer Tikka">
+                <h3>Paneer Tikka</h3>
+                <p>Grilled cottage cheese with aromatic spices.</p>
+            </article>
+
+            <article class="dish-card">
+                <img src="https://images.unsplash.com/photo-1631515243349-e0cb75fb8d3a?w=800"
+                    alt="Mandi">
+                <h3>Mandi</h3>
+                <p>Rice cooked in mutton stock.</p>
+            </article>
+
+            <article class="dish-card">
+                <img src="https://images.unsplash.com/photo-1701579231305-d84d8af9a3fd?w=800"
+                    alt="Biryani">
+                <h3>Biryani</h3>
+                <p>Fragrant rice cooked with rich spices.</p>
+            </article>
+
+        </div>
+    </section>
+
+    <!-- Desserts -->
+    <section id="desserts">
+        <h2>Desserts</h2>
+
+        <div class="desserts-container">
+
+            <div class="dessert-card">
+                <span class="emoji">🎂</span>
+                <h3>Cake</h3>
+            </div>
+
+            <div class="dessert-card">
+                <span class="emoji">🧁</span>
+                <h3>Cupcake</h3>
+            </div>
+
+            <div class="dessert-card">
+                <span class="emoji">🥐</span>
+                <h3>Croissant</h3>
+            </div>
+
+        </div>
+    </section>
+
+    <!-- Menu -->
+    <section class="menu" id="menu">
+
+        <h2>Our Menu</h2>
+
+        <div class="menu-container">
+
+            <div class="menu-item">
+                <span>Butter Chicken</span>
+                <span>₹299</span>
+            </div>
+
+            <div class="menu-item">
+                <span>Paneer Tikka</span>
+                <span>₹249</span>
+            </div>
+
+            <div class="menu-item">
+                <span>Biryani</span>
+                <span>₹349</span>
+            </div>
+
+            <div class="menu-item">
+                <span>Masala Dosa</span>
+                <span>₹149</span>
+            </div>
+
+            <div class="menu-item">
+                <span>Veg Fried Rice</span>
+                <span>₹199</span>
+            </div>
+
+        </div>
+
+    </section>
+
+    <!-- Reviews -->
+    <section class="reviews">
+
+        <h2>What Our Customers Say</h2>
+
+        <div class="review-container">
+
+            <article class="review-card">
+                <span class="stars">⭐⭐⭐⭐⭐</span>
+                <p>Amazing food and excellent service. The Butter Chicken was outstanding!</p>
+                <h4>- Priya Sharma</h4>
+            </article>
+
+            <article class="review-card">
+                <span class="stars">⭐⭐⭐⭐⭐</span>
+                <p>Best restaurant in town. The biryani was absolutely delicious.</p>
+                <h4>- Rahul Verma</h4>
+            </article>
+
+            <article class="review-card">
+                <span class="stars">⭐⭐⭐⭐⭐</span>
+                <p>Friendly staff and great atmosphere. Will definitely visit again.</p>
+                <h4>- Sarah Johnson</h4>
+            </article>
+
+        </div>
+
+    </section>
+
+    <!-- Contact -->
+    <section class="contact" id="contact">
+
+        <h2>Book a Table</h2>
+
+        <form class="contact-form">
+
+            <input type="text" name="name" placeholder="Your Name" required>
+
+            <input type="email" name="email" placeholder="Your Email" required>
+
+            <input type="date" name="date" required>
+
+            <textarea rows="5" name="message" placeholder="Special Request"></textarea>
+
+            <button type="submit">Reserve Now</button>
+
+        </form>
+
+    </section>
+
+    <!-- Footer -->
+    <footer>
+
+        <h3>Spice Garden</h3>
+
+        <p>123 Food Street, Bangalore, India</p>
+        <p>📞 +91 98765 43210</p>
+
+        <div class="footer-links">
+            <a href="#">Instagram</a>
+            <a href="#">Facebook</a>
+            <a href="#">WhatsApp</a>
+        </div>
+
+        <p class="copyright">
+            © 2026 Spice Garden. All Rights Reserved.
+        </p>
+
+    </footer>
+
+    <script src="script.js"></script>
+
+</body>
+
+</html>
